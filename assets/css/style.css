@@ -5,6 +5,61 @@
 * License: https://bootstrapmade.com/license/
 */
 
+.img1{
+  width: 35px;
+  color: #3b8af2;
+}
+
+/*-----------------------------------------------------------
+# Dialer
+-----------------------------------------------------------*/
+.d2{
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  z-index: 996;
+}
+.fa-solid {
+  color: #ffffff;
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  background: rgb(5, 99, 187);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------------------------------------------------------
+# Whatsapp
+-----------------------------------------------------------*/
+.w1{
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  z-index: 996;
+}
+.fa-brands {
+  color: #ffffff;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 125px;
+  right: 15px;
+  background: rgb(5, 99, 187);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*--------------------------------------------------------------
 # General
 -------------------------------------------------------------
@@ -733,7 +788,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/hero.jpeg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -744,7 +799,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.63);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1174,7 +1229,8 @@ section {
   color: #fff;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
@@ -1429,10 +1485,11 @@ section {
   color: #222222;
 }
 .team .member .member-info span {
+  padding-left: 12px;
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #242424;
 }
 .team .member .member-info p {
   font-style: italic;
